@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+@theme {
+    /* 颜色定义 */
+    --color-primary-50: #eff6ff;
+    --color-primary-100: #dbeafe;
+    --color-primary-500: #3b82f6;
+    --color-primary-600: #2563eb;
+    --color-primary-900: #1e3a8a;
+    
+    /* 品牌色 */
+    --color-brand: #8B5CF6;
+    --color-accent: #F59E0B;
+    
+    /* 字体定义 */
+    --font-display: "Inter", "system-ui", "sans-serif";
+    --font-body: "Source Sans Pro", "system-ui", "sans-serif";
+    
+    /* 间距定义 */
+    --spacing-18: 4.5rem;
+    --spacing-72: 18rem;
+    
+    /* 断点定义 */
+    --breakpoint-3xl: 1920px;
+    
+    /* 阴影定义 */
+    --shadow-elegant: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
